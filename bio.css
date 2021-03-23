@@ -1,0 +1,43 @@
+body,
+html {
+  height: 100%;
+}
+
+.bg {
+  background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+  size: 90%;
+  height: 95;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  font-size: x-large;
+  color: goldenrod;
+}
+
+footer {
+  background-color: rgb(64, 64, 64);
+  color: goldenrod;
+  font-size: 24px;
+  text-align: center;
+}
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  max-width: 100%;
+  justify-items: left;
+}
+
+main > p {
+  font-size: 22px;
+  color: honeydew;
+  border: solid;
+  background-color: black;
+}
