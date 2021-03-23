@@ -4,7 +4,7 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("../pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+  background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
 
   /* Full height */
   height: 100%;
@@ -28,7 +28,7 @@ body, html {
 #welcome{
     color: rgb(64, 64, 64);
     font-size: 50px;
-    background-image: url("../pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
+    background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
