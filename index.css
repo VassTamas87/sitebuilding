@@ -42,6 +42,23 @@ body, html {
 }
 .card{
   margin-top: 20px;
-  height: 500px;
+  height: 520px;
   font-family: 'Cormorant Unicase', serif;
+}
+.card > .card-img-top{
+  max-height: 300px;
+}
+.card > .card-body {
+  display: flex;
+  flex-direction: column;
+}
+button.btn{
+  margin-top: auto;
+}
+
+.col-sm-3 {
+  margin: -10px;
+}
+.section2 {
+  margin: auto;
 }
