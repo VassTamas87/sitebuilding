@@ -1,0 +1,40 @@
+.bg {
+    background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+    height: 100%;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body,
+  html {
+    height: 100%;
+  }
+.navbar {
+    font-size: 30px;
+    font-family: 'Cormorant Unicase', serif;
+    color: goldenrod;
+    background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.card{
+    margin-top: 20px;
+    height: 520px;
+    font-family: 'Cormorant Unicase', serif;
+  }
+  .card > .card-img-top{
+    max-height: 300px;
+  }
+  .card > .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section2 {
+    margin: auto;
+  }
+  .card-footer {
+    background: transparent;
+    border-top: 0px;
+  }
