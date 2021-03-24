@@ -1,0 +1,64 @@
+.bg {
+  background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+  height: 100%;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body,
+html {
+  height: 100%;
+}
+
+.navbar {
+  font-size: x-large;
+  color: goldenrod;
+}
+
+.card {
+  margin-top: 20px;
+  height: 520px;
+  font-family: "Cormorant Unicase", serif;
+}
+.card > .card-img-top {
+  height: 300px;
+}
+.card > .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  height: 80px;
+}
+
+.section2 {
+  margin: auto;
+}
+.card-footer {
+  background: transparent;
+  border-top: 0px;
+}
+
+footer {
+  background-color: rgb(64, 64, 64);
+  color: goldenrod;
+  font-size: 24px;
+  text-align: center;
+}
+
+.nav-link {
+  color: goldenrod !important;
+}
+
+.nav-link.active {
+  color: red !important;
+}
+
+.nav-link.active:hover {
+  color: blue !important;
+}
+.nav-link:hover {
+  color: blue !important;
+}
