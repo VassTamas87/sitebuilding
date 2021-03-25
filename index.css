@@ -16,6 +16,7 @@ html {
 .navbar {
   font-size: x-large;
   color: goldenrod;
+  font-family: 'Cormorant Unicase', serif;
 }
 
 .nav-link {
