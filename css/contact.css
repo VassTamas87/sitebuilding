@@ -32,7 +32,7 @@ color: blue !important;
 }
 
 main{
-    font-size: 50px;
+    font-size: 60px;
     font-family: 'Cormorant Unicase', serif;
     margin: 200px 0px 200px 0px;
     color: goldenrod;
@@ -40,10 +40,14 @@ main{
 }
 fieldset{
     border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .col-sm > img{
     margin-bottom: 10px;
     border-radius: 10px 10px 10px 10px;
 }
-
+.connactions{
+  width: 500px;
+  margin: 0px 0 0 400px;
+}
