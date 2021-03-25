@@ -43,3 +43,20 @@ footer {
     font-size: 24px;
     text-align: center;
   }
+
+  .navbar {
+    font-size: x-large;
+    color: goldenrod;
+    font-family: 'Cormorant Unicase', serif;
+  }
+  
+  .nav-link {
+    color: goldenrod !important;
+  }
+  
+  .nav-link.active:hover {
+    color: blue !important;
+  }
+  .nav-link:hover {
+    color: blue !important;
+  }
