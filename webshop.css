@@ -14,9 +14,6 @@ body,
     font-size: 30px;
     font-family: 'Cormorant Unicase', serif;
     color: goldenrod;
-    background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
 }
 .card{
     margin-top: 20px;
@@ -31,6 +28,9 @@ body,
     flex-direction: column;
   }
 
+  .card-text {
+    height: 80px;
+  }
   .section2 {
     margin: auto;
   }
@@ -41,3 +41,25 @@ body,
   fieldset > label{
     font-size: large;
   }
+  footer {
+    background-color: rgb(64, 64, 64);
+    color: goldenrod;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .nav-link {
+    color: goldenrod !important;
+  }
+  
+  .nav-link.active {
+    color: red !important;
+  }
+  
+  .nav-link.active:hover {
+    color: blue !important;
+  }
+  .nav-link:hover {
+    color: blue !important;
+  }
+  

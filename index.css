@@ -6,37 +6,41 @@ html {
 .bg {
   background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
   height: 100%;
+  background-attachment: fixed;
   background-position: bottom;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.carousel-inner > .item > img {
-  width: auto;
-  height: 225px;
-  max-height: 225px;
 }
 
 .navbar {
     font-size: 30px;
     font-family: 'Cormorant Unicase', serif;
     color: goldenrod;
-    background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
-    background-size:cover;
-    background-repeat: no-repeat;
+}
+.nav-link {
+  color: goldenrod !important;
 }
 
-#welcome{
-    color: rgb(255, 0, 0);
-    padding: 5px;
-    font-family: 'Cormorant Unicase', serif;
-    font-size: 50px;
-    font-weight: 600;
-    background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: -8px;
+.nav-link.active {
+  color: red !important;
+}
+
+.nav-link.active:hover {
+  color: blue !important;
+}
+.nav-link:hover {
+  color: blue !important;
+}
+#welcome {
+  color: rgb(17, 4, 4);
+  font-size: 50px;
+  font-family: 'Cormorant Unicase', serif;
+  background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: 600;
 }
 
 .cards {
@@ -51,4 +55,30 @@ html {
 .cards > .card-body {
   display: flex;
   flex-direction: column;
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  font-size: 60px;
+}
+
+.carousel .carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.carousel-caption h3 {
+  font-size: 24px;
 }

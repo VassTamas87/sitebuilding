@@ -7,13 +7,14 @@ html {
   background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
   size: 90%;
   height: 95;
-
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .navbar {
-  font-size: x-large;
+  font-size: 30px;
+  font-family: 'Cormorant Unicase', serif;
   color: goldenrod;
 }
 
@@ -24,20 +25,63 @@ footer {
   text-align: center;
 }
 
-img {
-  width: 70%;
-  height: auto;
-}
-
 .flex-container {
   display: flex;
   max-width: 100%;
   justify-items: left;
 }
 
-main > p {
+.main {
+  flex: 0 0 60%;
+}
+
+.main > p {
   font-size: 22px;
   color: honeydew;
-  border: solid;
   background-color: black;
+  text-align: justify;
+  padding: 8px;
+}
+
+table th {
+  border: solid 2px;
+  margin: auto;
+  text-align: center;
+}
+
+table td {
+  border: solid 2px;
+  margin: auto;
+  text-align: center;
+}
+
+.portrait {
+  flex: 0 0 40%;
+}
+
+.portrait img {
+  max-width: 100%;
+}
+
+.nav-link {
+  color: goldenrod !important;
+}
+
+.nav-link.active {
+  color: red !important;
+}
+
+.nav-link.active:hover {
+  color: blue !important;
+}
+.nav-link:hover {
+  color: blue !important;
+}
+
+table {
+  margin-top: 45px;
+  font-size: 24px;
+  color: goldenrod;
+  background-color: rgb(64, 64, 64);
+  width: 100%;
 }
