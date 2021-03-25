@@ -4,7 +4,7 @@ html {
 }
 
 .bg {
-  background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+  background-image: url("../pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
 
   height: 100%;
   background-attachment: fixed;
@@ -17,6 +17,7 @@ html {
   font-size: 30px;
   font-family: 'Cormorant Unicase', serif;
   color: goldenrod;
+  font-family: 'Cormorant Unicase', serif;
 }
 
 footer {
@@ -81,7 +82,7 @@ form h2 {
   text-align: right;
 }
 
-.targy input {
+.question input {
   margin: 10px 0 0 140px;
 }
 

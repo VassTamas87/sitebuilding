@@ -4,7 +4,7 @@ html {
 }
 
 .bg {
-  background-image: url("./pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
+  background-image: url("../pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
   height: 100%;
   background-attachment: fixed;
   background-position: bottom;
@@ -36,7 +36,7 @@ html {
   color: rgb(17, 4, 4);
   font-size: 50px;
   font-family: 'Cormorant Unicase', serif;
-  background-image: url("./pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
+  background-image: url("../pic/index/american-flag-royalty-free-image-141653762-1560206611.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,16 +45,7 @@ html {
 
 .cards {
   justify-content: space-evenly;
-  margin-top: 20px;
-  height: 520px;
   font-family: 'Cormorant Unicase', serif;
-}
-.card-img-top{
-  max-height: 400px;
-}
-.cards > .card-body {
-  display: flex;
-  flex-direction: column;
 }
 
 .carousel-content {
