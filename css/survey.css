@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;700&display=swap');
+
 body,
 html {
   height: 100%;
@@ -14,9 +16,9 @@ html {
 }
 
 .navbar {
-  font-size: x-large;
+  font-size: 30px;
   color: goldenrod;
-  font-family: 'Cormorant Unicase', serif;
+  font-family: "Cormorant Unicase", serif;
 }
 
 footer {
@@ -88,6 +90,7 @@ form h2 {
 form textarea {
   width: 500px;
   height: 150px;
+  margin-left: 15px;
 }
 
 form input[type="submit"] {
@@ -127,4 +130,12 @@ form p {
 fieldset label {
   color: goldenrod;
   text-align: left;
+}
+
+fieldset p {
+  margin-left: 15px;
+}
+
+.message label {
+  margin-left: 15px;
 }

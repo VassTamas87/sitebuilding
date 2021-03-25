@@ -15,28 +15,43 @@ html {
 }
 .navbar {
   font-size: 30px;
-  font-family: "Cormorant Unicase", serif;
+  font-family: 'Cormorant Unicase', serif;
   color: goldenrod;
 }
-main {
-  font-size: 60px;
-  font-family: "Cormorant Unicase", serif;
-  margin: 200px 0px 200px 0px;
-  color: rgb(255, 38, 0);
-  font-weight: 600;
+.nav-link {
+color: goldenrod !important;
 }
-fieldset {
-  border-radius: 10px 10px 10px 10px;
+
+.nav-link.active {
+color: red !important;
 }
-.col-sm > img {
-  margin-bottom: 10px;
-  border-radius: 10px 10px 10px 10px;
-}
+
 .nav-link.active:hover {
-  color: blue !important;
+color: blue !important;
 }
 .nav-link:hover {
-  color: blue !important;
+color: blue !important;
+}
+
+main{
+    font-size: 60px;
+    font-family: 'Cormorant Unicase', serif;
+    margin: 200px 0px 200px 0px;
+    color: goldenrod;
+    font-weight: 600;
+}
+fieldset{
+    border-radius: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col-sm > img{
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.connactions{
+  width: 500px;
+  margin: 0px 0 0 400px;
 }
 
 footer {
@@ -44,15 +59,4 @@ footer {
     color: goldenrod;
     font-size: 24px;
     text-align: center;
-  }
-
-  .nav-link {
-    color: goldenrod !important;
-  }
-  
-  .nav-link.active:hover {
-    color: blue !important;
-  }
-  .nav-link:hover {
-    color: blue !important;
   }

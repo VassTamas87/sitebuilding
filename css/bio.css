@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;700&display=swap');
+
 body,
 html {
   height: 100%;
@@ -13,7 +15,7 @@ html {
 }
 
 .navbar {
-  font-size: x-large;
+  font-size: 30px;
   color: goldenrod;
   font-family: 'Cormorant Unicase', serif;
 }
@@ -79,7 +81,7 @@ table td {
 }
 
 table {
-  margin-top: 45px;
+  margin-top: -15px;
   font-size: 24px;
   color: goldenrod;
   background-color: rgb(64, 64, 64);

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;700&display=swap');
+
 .bg {
   background-image: url("../pic/usa-new-york-city-manhattan-trump-tower-view-from-below-FC000897.jpg");
   height: 100%;
@@ -12,7 +14,7 @@ html {
 }
 
 .navbar {
-  font-size: x-large;
+  font-size: 30px;
   color: goldenrod;
   font-family: 'Cormorant Unicase', serif;
 }

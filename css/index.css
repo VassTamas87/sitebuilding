@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;700&display=swap');
+
 body,
 html {
   height: 100%;
@@ -14,7 +16,7 @@ html {
 }
 
 .navbar {
-  font-size: x-large;
+  font-size: 30px;
   color: goldenrod;
   font-family: "Cormorant Unicase", serif;
 }
@@ -41,6 +43,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   font-weight: 600;
+  font-family: "Cormorant Unicase", serif;
 }
 
 footer {
@@ -55,6 +58,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: space-evenly;
+  font-family: "Cormorant Unicase", serif;
 }
 
 .carousel-content {
@@ -81,4 +85,16 @@ footer {
 
 .carousel-caption h3 {
   font-size: 24px;
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-caption h3 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-content {
+    font-size: 20px;
+  }
 }
